@@ -1,0 +1,43 @@
+
+main{
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: system-ui;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+textarea {
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+
+.matrix {
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+
+.cell.white {
+  background-color: white;
+}
+
+.cell.black {
+  background-color: black;
+}
